@@ -1,0 +1,152 @@
+.jumbotron{
+  background-color: #118EB4;
+  color: #ffffff;
+  padding: 100px 25px;
+}
+
+.jumbotron img{
+  margin: 10px;
+}
+
+
+.navbar{
+    margin-bottom: 0;
+    background-color: #118EB4;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+  }
+  
+  .navbar li a, .navbar .navbar-brand{
+    color: #fff !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a{
+    color: #118EB4 !important;
+    background-color: #fff !important;
+  }
+  
+  .navbar-default .navbar-toggle{
+    border-color: transparent;
+    color: #fff !important;
+  }
+
+  .container-fluid{
+    padding: 60px 50px;
+  }
+
+  .logo{
+    font-size: 200px;
+    color: #118EB4;
+    font-size: 200px;
+  }
+
+  #about{
+    padding: 100px 25px;
+  }
+
+  .titulo{
+    font-weight: bold;
+    color:#43403B;
+  }
+
+  #ft{
+    background-color: #F9D99E;
+    padding: 100px 25px;
+  }
+
+  .panel{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 25px 10px;
+  }
+  .subtitulo_carrusel{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #878787;
+    padding: 15px;
+    color: #ffffff;
+    margin: 40px 0px 0px 0px;
+  }
+
+  .carousel{
+    margin-bottom: 40px;
+  }
+
+  .carousel-indicators [data-slide-to]{
+    content: '';
+    border-color: #878787;
+  }
+
+  .carousel-inner{
+    margin: auto;
+    width: 40%;
+  }
+
+  .link{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+    color: red;
+  }
+
+  .audio1{
+    margin-bottom: 10px;
+  }
+
+  .container{
+    margin-top: 30px;
+  }
+
+  .gram p{
+    margin-top: 5px;
+  }
+
+  .gram:hover,.au:hover{
+    transform: scale(1.05);
+    transition: 100ms all;
+  }
+  
+  #pastpe{
+    background-color: #118EB4;
+    color: #ffffff;
+    padding: 5px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bold;
+  }
+
+  #pastperfect_gramatica, .alyetgram p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .auxiliar{
+    color: red;
+  }
+
+  .verbo{
+    color: blue;
+  }
+
+  .alyet{
+    color:rgb(0, 116, 0);
+  }
+
+  #tt{
+    background-color: #DBF2C4;
+  }
+
+  @media screen and (max-width: 768px){
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
