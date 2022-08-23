@@ -140,6 +140,35 @@
     color:rgb(0, 116, 0);
   }
 
+.formasDeComer{
+    padding-bottom: 30px;
+  }
+
+  .sintomas{
+    padding-bottom: 20px;
+  }
+
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #f4511e;
+  }
+  
+  .carousel-indicators li {
+    border-color: #f4511e;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #f4511e;
+  }
+  
+  .item h4 {
+    font-size: 20px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: bold;
+    margin: 70px 0;
+  }
+
   #tt{
     background-color: #DBF2C4;
   }
