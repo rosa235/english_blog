@@ -85,6 +85,10 @@
     margin: auto;
   }
 
+  .carousel img{  
+    margin:auto;
+  }
+
   .link{
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -161,6 +165,60 @@
     font-style: bold;
     margin: 70px 0;
   }
+
+  .img-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .audio1{
+    max-height: 100%;
+    max-width: 100%;
+    margin:auto;
+    object-fit: contain;
+  }
+
+  .video{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height: 100%;
+  }
+
+  /*
+  second term
+  */
+
+  .unidad{
+    background: #1F4F7E;
+    border-radius: 5px;
+    color:white;
+    text-align: left;
+    padding: 5px 10px;
+  }
+
+  .goal{
+    background-color: #6F96BD;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 10px;
+    text-align: left;
+    color:black;
+  }
+
+
+  /*
+  third term
+  */
 
 
   #tt{
