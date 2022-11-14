@@ -206,8 +206,25 @@
     padding: 5px 10px;
   }
 
+  .unidad3{
+    background: #68B21E;
+    border-radius: 5px;
+    color:white;
+    text-align: left;
+    padding: 5px 10px;
+  }
+
   .goal{
     background-color: #6F96BD;
+    border-radius: 5px;
+    text-align: left;
+    padding: 5px 10px;
+    text-align: left;
+    color:black;
+  }
+
+  .goal3{
+    background-color: #9ECC6F;
     border-radius: 5px;
     text-align: left;
     padding: 5px 10px;
@@ -245,100 +262,9 @@
     background-color: #DBF2C4;
   }
 
-  @media screen and (max-width: 768px){
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-  }
-
-  .carousel-control.right, .carousel-control.left {
-    background-image: none;
-    color: #f4511e;
-  }
-  
-  .carousel-indicators li {
-    border-color: #f4511e;
-  }
-  
-  .carousel-indicators li.active {
-    background-color: #f4511e;
-  }
-  
-  .item h4 {
-    font-size: 20px;
-    line-height: 1.375em;
-    font-weight: 400;
-    font-style: bold;
-    margin: 70px 0;
-  }
-
-  .img-fluid{
-    max-width: 100%;
-    height: auto;
-  }
-
-  .audio1{
-    max-height: 100%;
-    max-width: 100%;
-    margin:auto;
-    object-fit: contain;
-  }
-
-  .video{
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-  }
-
-  .video iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width:100%;
-    height: 100%;
-  }
-
-  /*
-  second term
-  */
-
-  .unidad{
-    background: #1F4F7E;
-    border-radius: 5px;
-    color:white;
-    text-align: left;
-    padding: 5px 10px;
-  }
-
-  .goal{
-    background-color: #6F96BD;
-    border-radius: 5px;
-    text-align: left;
-    padding: 5px 10px;
-    text-align: left;
-    color:black;
-  }
-
-  .question{
-    background-color: #F0F0F0;
+  .tragedy{
     width: 50%;
-    margin: 20px auto 10px auto;
-    text-align: center;
     border-radius: 5px;
-  }
-
-
-
-  /*
-  third term
-  */
-
-
-  #tt{
-    background-color: #DBF2C4;
   }
 
   @media screen and (max-width: 768px){
